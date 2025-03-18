@@ -273,5 +273,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For support or queries, please contact:
-- Email: [your-email]
+- Email: [seunogunmolufirst1@gmail.com]
 - GitHub Issues: [repository-issues-link]
