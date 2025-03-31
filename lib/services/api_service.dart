@@ -6,12 +6,8 @@ import '../models/student.dart';
 
 class ApiService {
   static String get baseUrl {
-    // For Android emulator, use 10.0.2.2 instead of localhost
-    if (!kIsWeb && Platform.isAndroid) {
-      return 'http://10.0.2.2:8000/api';
-    }
-    // For iOS simulator and desktop, use localhost
-    return 'http://127.0.0.1:8000/api';
+    // Use the computer's IP address for all platforms
+    return 'http://10.0.0.63:8000/api';
   }
 
   Future<List<Student>> getStudents() async {
